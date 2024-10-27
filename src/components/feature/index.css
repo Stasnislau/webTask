@@ -1,0 +1,15 @@
+.feature {
+  margin: 0 3rem;
+
+  & > h3 {
+    margin-bottom: 1rem;
+  }
+
+  & > image {
+    display: block;
+  }
+
+  & > p {
+    max-width: 19rem;
+  }
+}

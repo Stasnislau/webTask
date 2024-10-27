@@ -1,0 +1,35 @@
+.imageCard {
+  max-width: 35rem;
+  position: relative;
+
+
+  & .imageCard__image {
+    max-width: 35rem;
+    border-radius: .8rem;
+  }
+
+  & .imageCard__content {
+    width: 29.3rem;
+    max-width: 29.3rem;
+    height: 19.8rem;
+    background-color: white;
+    position: absolute;
+    bottom: -12rem;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: .8rem;
+    padding: 3.3rem 3.2rem;
+    text-align: center;
+
+    & p {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    & a {
+      color: red;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+  }
+}
