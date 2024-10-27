@@ -1,0 +1,8 @@
+.skeleton-loader {
+  animation: pulse 1.5s infinite;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+}
